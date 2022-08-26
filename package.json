@@ -1,0 +1,29 @@
+{
+  "name": "nodetut",
+  "version": "1.0.0",
+  "description": "node js tutorials",
+  "main": "first.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Akash-gahlot/node.js_TUT.git"
+  },
+  "keywords": [
+    "Node_AK"
+  ],
+  "author": "Akash Gahlot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Akash-gahlot/node.js_TUT/issues"
+  },
+  "homepage": "https://github.com/Akash-gahlot/node.js_TUT#readme",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "colors": "^1.4.0",
+    "node-fetch": "^2.6.1"
+  }
+  
+}
