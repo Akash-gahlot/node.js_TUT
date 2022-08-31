@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        h1{
+            text-align: center;
+            font-weight: 700;
+            color: red;
+        }
+    
+    </style>
+</head>
+<body>
+    <h1>
+        Know About Me
+    </h1>
+    <div>
+        <h2>
+         NAME : <%=data.name%>
+        </h2>
+        <ul>Cities in which i have lived :
+            <h2>
+            <% data.cities.forEach((item)=>{%>
+                <li><%=item%></li>
+                <%  })%>
+            </h2>
+        </ul>
+        <ul>
+            These are some courses which i have done :
+            <h2>
+                <% data.Courses.forEach((item)=>{%>
+                    <li>
+                        <%=item%>
+                    </li>
+                <% })%>
+            </h2>
+        </ul>
+        <ul>
+            Below are the companies in which i have worked in :
+            <h2>
+                <% data.companies.forEach((item)=>{ %>
+                    <li>
+                        <%=item%>
+                    </li>
+                    <%  })%>
+            </h2>
+        </ul>
+    </div>
+    
+</body>
+</html>
